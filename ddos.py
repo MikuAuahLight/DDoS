@@ -21,8 +21,8 @@ year = now.year
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+ip = raw_input("IP Target: ")
+port = input("Port: ")
 #############
 
 sent = 0
